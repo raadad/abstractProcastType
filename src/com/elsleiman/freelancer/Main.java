@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		ProcastinatePickList<String> list = new ProcastinatePickList<String>();
+		IAutoPick<String> list = new ProcastinatePickList<String>();
 		for(String i : args ){
 			list.addItem(i);
 		}
